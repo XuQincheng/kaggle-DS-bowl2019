@@ -26,3 +26,9 @@ There are roughly 11 million rows in the training data, with 17,000 unique insta
 
 # Notebook
 Contains the submission notebook with the data processing and modeling pipeline that will result in writing predictions to a .csv file for the Kaggle 2019 Data Science Bowl Competition.
+
+To get started with the notebook create the conda environment with the include `environment.yml` file. This will make sure that you have all of the neccessary packages installed.  To do this run the following command while in this directory:
+
+```
+conda env create -f environment.yml
+```
